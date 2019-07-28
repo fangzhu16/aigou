@@ -1,0 +1,13 @@
+server:
+  port: 2000
+
+eureka:
+  client:
+    serviceUrl: #注册中心的注册地址
+      defaultZone: http://peer1000:1000/eureka/
+  instance:
+    prefer-ip-address: true #使用ip注册
+
+spring:
+  application:
+    name: plat-service
