@@ -1,0 +1,6 @@
+com\pornhub\aigou\domain\ProductType.class
+com\pornhub\aigou\domain\Product.class
+com\pornhub\aigou\query\BrandQuery.class
+com\pornhub\aigou\query\ProductQuery.class
+com\pornhub\aigou\domain\Brand.class
+com\pornhub\aigou\query\ProductTypeQuery.class

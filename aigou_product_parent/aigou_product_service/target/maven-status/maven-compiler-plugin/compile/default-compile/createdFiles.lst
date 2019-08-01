@@ -1,0 +1,15 @@
+com\pornhub\aigou\config\Swagger2.class
+com\pornhub\aigou\service\impl\BrandServiceImpl.class
+com\pornhub\aigou\service\IProductService.class
+com\pornhub\aigou\service\IProductTypeService.class
+com\pornhub\aigou\service\impl\ProductTypeServiceImpl.class
+com\pornhub\aigou\controller\ProductTypeController.class
+com\pornhub\aigou\config\MybatisPlusConfig.class
+com\pornhub\aigou\service\IBrandService.class
+com\pornhub\aigou\ProductApplication.class
+com\pornhub\aigou\controller\BrandController.class
+com\pornhub\aigou\mapper\ProductMapper.class
+com\pornhub\aigou\mapper\BrandMapper.class
+com\pornhub\aigou\controller\ProductController.class
+com\pornhub\aigou\service\impl\ProductServiceImpl.class
+com\pornhub\aigou\mapper\ProductTypeMapper.class
