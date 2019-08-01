@@ -1,1 +1,4 @@
-D:\idea_workspace\aigou_parent\aigou_zuul\src\main\java\com\pornhub\zuul\ZuulApplication.java
+D:\idea_workspace\aigou-parent\aigou_zuul\src\main\java\com\pornhub\zuul\config\GlobalCorsConfig.java
+D:\idea_workspace\aigou-parent\aigou_zuul\src\main\java\com\pornhub\zuul\config\SwaggerConfig.java
+D:\idea_workspace\aigou-parent\aigou_zuul\src\main\java\com\pornhub\zuul\config\DocumentationConfig.java
+D:\idea_workspace\aigou-parent\aigou_zuul\src\main\java\com\pornhub\zuul\ZuulApplication.java

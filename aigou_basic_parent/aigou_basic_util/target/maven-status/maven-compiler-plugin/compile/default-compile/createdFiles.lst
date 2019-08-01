@@ -1,2 +1,14 @@
+com\pornhub\basic\util\BaseQuery.class
 com\pornhub\basic\util\AjaxResult.class
+com\pornhub\basic\util\CodeGenerateUtils.class
 com\pornhub\basic\util\PageList.class
+com\pornhub\basic\util\ProductStateConsts.class
+com\pornhub\basic\util\encrypt\DES.class
+com\pornhub\basic\util\encrypt\MD5.class
+com\pornhub\basic\util\PropertiesHelper.class
+com\pornhub\basic\util\StrUtils.class
+com\pornhub\basic\util\ClassUtils$1.class
+com\pornhub\basic\util\LetterUtil.class
+com\pornhub\basic\util\GlobalSetting.class
+com\pornhub\basic\util\BitStatesUtils.class
+com\pornhub\basic\util\ClassUtils.class

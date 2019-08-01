@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/aigou_zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/aigou_product_parent/pom.xml" />
       </list>
     </option>
   </component>

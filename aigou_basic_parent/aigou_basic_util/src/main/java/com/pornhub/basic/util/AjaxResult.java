@@ -5,9 +5,9 @@ package com.pornhub.basic.util;
  */
 public class AjaxResult {
 
-    private boolean success;
+    private boolean success = true;
 
-    private String message;
+    private String message = "操作成功!";
 
     private Object restObj;
 
@@ -24,7 +24,7 @@ public class AjaxResult {
         return success;
     }
 
-
+    //AjaxResult.me().setSuccess(true).setMessage("操作成功！")
     public AjaxResult setSuccess(boolean success) {
         this.success = success;
         return this;
@@ -43,7 +43,7 @@ public class AjaxResult {
         return restObj;
     }
 
-    public Object setRestObj(Object restObj) {
+    public AjaxResult setRestObj(Object restObj) {
         this.restObj = restObj;
         return this;
     }

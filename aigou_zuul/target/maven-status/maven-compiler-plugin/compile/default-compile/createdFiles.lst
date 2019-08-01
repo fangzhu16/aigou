@@ -1,1 +1,4 @@
+com\pornhub\zuul\config\SwaggerConfig.class
+com\pornhub\zuul\config\DocumentationConfig.class
+com\pornhub\zuul\config\GlobalCorsConfig.class
 com\pornhub\zuul\ZuulApplication.class
