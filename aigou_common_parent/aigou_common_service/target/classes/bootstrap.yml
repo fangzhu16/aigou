@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl: #注册中心的注册地址
+      defaultZone: http://peer1000:1000/eureka/
+  instance:
+    prefer-ip-address: true #使用ip注册
+
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: spring-cloud-config-server
+      name: application-common
+      profile: dev
+server:
+  max-http-header-size: 10240000
