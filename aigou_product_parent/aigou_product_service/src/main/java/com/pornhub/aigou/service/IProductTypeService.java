@@ -17,7 +17,11 @@ public interface IProductTypeService extends IService<ProductType> {
 
     /**
      * 加载类型树
+     *
      * @return
      */
     List<ProductType> loadTypeTree();
+
+
+    void genHomePage();
 }

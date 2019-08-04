@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aigou_basic_generator" />
         <module name="aigou_basic_util" />
+        <module name="aigou_common_interface" />
+        <module name="aigou_common_service" />
         <module name="aigou_config" />
         <module name="aigou_eureka" />
         <module name="aigou_plat_interface" />
@@ -21,6 +23,9 @@
       <module name="aigou_basic_generator" target="8" />
       <module name="aigou_basic_parent" target="8" />
       <module name="aigou_basic_util" target="8" />
+      <module name="aigou_common_interface" target="8" />
+      <module name="aigou_common_parent" target="8" />
+      <module name="aigou_common_service" target="8" />
       <module name="aigou_config" target="8" />
       <module name="aigou_eureka" target="8" />
       <module name="aigou_parent" target="8" />
@@ -31,6 +36,7 @@
       <module name="aigou_product_parent" target="8" />
       <module name="aigou_product_service" target="8" />
       <module name="aigou_zuul" target="8" />
+      <module name="common_parent" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

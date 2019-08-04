@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +21,7 @@ import java.util.List;
 @TableName("t_product_type")
 public class ProductType extends Model<ProductType> {
 
-    private static final long serialVersionUID=1L;
+    private static final long serialVersionUID = 1L;
 
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
@@ -80,7 +81,7 @@ public class ProductType extends Model<ProductType> {
     private Long typeTemplateId;
 
     @TableField(exist = false)
-    private List<ProductType> children = new ArrayList<>();//子类型
+    private List<ProductType> children;//子类型
 
     public List<ProductType> getChildren() {
         return children;
@@ -202,19 +203,19 @@ public class ProductType extends Model<ProductType> {
     @Override
     public String toString() {
         return "ProductType{" +
-        "id=" + id +
-        ", createTime=" + createTime +
-        ", updateTime=" + updateTime +
-        ", name=" + name +
-        ", pid=" + pid +
-        ", logo=" + logo +
-        ", description=" + description +
-        ", sortIndex=" + sortIndex +
-        ", path=" + path +
-        ", totalCount=" + totalCount +
-        ", seoTitle=" + seoTitle +
-        ", seoKeywords=" + seoKeywords +
-        ", typeTemplateId=" + typeTemplateId +
-        "}";
+                "id=" + id +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", name=" + name +
+                ", pid=" + pid +
+                ", logo=" + logo +
+                ", description=" + description +
+                ", sortIndex=" + sortIndex +
+                ", path=" + path +
+                ", totalCount=" + totalCount +
+                ", seoTitle=" + seoTitle +
+                ", seoKeywords=" + seoKeywords +
+                ", typeTemplateId=" + typeTemplateId +
+                "}";
     }
 }
